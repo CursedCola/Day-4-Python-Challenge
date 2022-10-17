@@ -13,36 +13,36 @@ guess = int(input("What your guess John? (NO DECIMALS): "))
 
 attempts = 0
 
+trys = 8
+
+
+
 # 1 If the number the user said is less than 1 or greater than 100, it will tell them that  he/she has chosen a number that is out of play.
 
 if guess < 1 or guess > 5:
   print("You have chosen a number that is out of play")
-elif guess < 1 or guess > 5:
-  input("Pick another number: ")
+ int(input("Pick another number: "))
+
 
 # 2 If the number the user chose is less than the number the program thought of, it will tell them that the answer is wrong, and that he/she chose a lower number than the secret number.
 
 if guess < secretNumber:
-  print("Your answer is wrong, because it is lower than the secret number")
-elif guess < secretNumber:
-  input("Pick another number: ")
+  print("Your answer is wrong, because it is lower than the secret number") 
+int(input("Pick another number: "))
 
 
 # 3 If the user chose a number greater than the secret number, it will let them know that it was greater.
 
 if guess > secretNumber:
-  print("Your answer is wrong, because it is greater than the secret number")
-elif guess > secretNumber:
-  input("Pick another number: ")
+  print("Your answer is wrong, because it is greater than the secret number") int(input("Pick another number: "))
 
 # 4 And if the user got the secret number right, they will be informed that they have won,and how many tries that has taken them.
 
-if secretNumber == guess:
-  print("You have won")
+if guess == secretNumber:
   attempts += 1
-elif guess == secretNumber:
   print(f"You have won! You used {attempts} attempts!")
 
 
 
 # 5 If the user has not guessed correctly in their first attempt, they will be asked again to choose another number and so on until they win or until their eight attempts are done.
+
