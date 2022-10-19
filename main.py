@@ -1,4 +1,35 @@
 from random import randint, choice
+# Hey I'm currently absent because of sickness however I created a template of a working loop, try it out in another repil if you like it or not to impliment in the code, sorry for not being there
+
+# print("Well John I've thought of a number between 1 and 100 and you have only eight tries to guess it. What number do you think it is?")
+
+# attempts = 0
+
+# trys = 8
+
+# secretNumber = randint(1,100)
+# guess = int(input("What your guess John? (NO DECIMALS): "))
+# if guess == secretNumber:
+#   attempts += 1
+# while secretNumber != guess:
+#     if guess < 1 or guess > 100:
+#       print("Your guess is out of bounds")
+#       guess = int(input("Guess another number: "))
+#     elif guess < secretNumber:
+#         print("Your guess is less than the secret number")
+#         guess = int(input("Guess another number: "))
+#     elif guess > secretNumber:
+#         print("Your guess is greater than the secret number")
+#         guess = int(input("Guess another number: "))
+#     else:
+#       break
+# print(f'Well done John you guessed it write with only {attempts} attempt')
+
+# I haven't figured out the counter for attempts
+
+
+
+
 
 
 # The task is this: the program will ask for the user's name and then it will say
